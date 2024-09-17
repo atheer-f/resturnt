@@ -1,0 +1,117 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 125%;
+  background-color: #ffd3cc;
+}
+
+div {
+  background-image: url("background.png");
+  background-size: contain;
+  height: 300px;
+  position: relative;
+
+}
+
+nav {
+  background-color: #d27878;
+  text-align: left;
+  position: relative;
+  border: 2px solid #ffd3cc;
+  border-radius: 5px;
+}
+
+.skip {
+  padding: 25px 50px 75px 10px;
+  color: #ffd3cc;
+}
+
+li {
+  display: inline;
+  width: 500px;
+  color: #6d4f5c;
+
+}
+
+ul {
+  text-align: center;
+  padding-inline-start: 10%;
+  ;
+}
+
+a:link,
+a:visited {
+  background-color: #d27878;
+  color: black;
+  border: 2px solid #ffd3cc;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+a:hover,
+a:active {
+  background-color: #ffd3cc;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  color: #6d4f5c;
+}
+
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6c5656;
+  padding: 25px 50px 75px 100px;
+}
+
+.text {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6c5656;
+  padding: 25px 50px 75px 10px;
+}
+
+span {
+  font-weight: 900;
+}
+
+h2 {
+  color: #895048;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 10% 20% 20%;
+  background-color: #c78d8d;
+  padding: 10px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+
+
+.flex-container {
+  display: flex;
+  background-color: #c78d8d;
+  flex-wrap: wrap;
+  ;
+  padding: 10px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+
+}
+
+h1:nth-child(2) {
+  background: red;
+}
